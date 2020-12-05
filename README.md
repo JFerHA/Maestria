@@ -37,5 +37,8 @@ You can then use this pipeline to classify sequences into any of the class names
 ```
 sequence_to_classify = "Algún día iré a ver el mundo"
 candidate_labels = ['viaje', 'cocina', 'danza']
-classifier(sequence_to_classify, candidate_labels)#{'sequence': 'Algún día iré a ver el mundo',# 'labels': ['viaje', 'danza', 'cocina'],#'scores': [0.9991760849952698, 0.0004178212257102132, 0.0004059972707182169]}
+classifier(sequence_to_classify, candidate_labels)
+#{'sequence': 'Algún día iré a ver el mundo',
+#'labels': ['viaje', 'danza', 'cocina'],
+#'scores': [0.9991760849952698, 0.0004178212257102132, 0.0004059972707182169]}
 ```
