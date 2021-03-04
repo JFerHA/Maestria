@@ -11,7 +11,11 @@ datasets:
 license: mit
 pipeline_tag: zero-shot-classification
 widget:
+- text: "De pugna erat fantastic. Nam Crixo decem quam dilexit et praeciderunt caput aemulus."
+  candidate_labels: "violent, peaceful"
 - text: "La película empezaba bien pero terminó siendo un desastre." 
+  candidate_labels: "positivo, negativo, neutral"
+- text: "La película empezó siendo un desastre pero en general fue bien." 
   candidate_labels: "positivo, negativo, neutral"
 - text: "¿A quién vas a votar en 2020?"
   candidate_labels: "Europa, elecciones, política, ciencia, deportes"
